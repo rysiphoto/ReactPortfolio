@@ -1,6 +1,6 @@
 import React from "react";
 
-function NavTabs() {
+function Footer() {
 
   return (
     <>
