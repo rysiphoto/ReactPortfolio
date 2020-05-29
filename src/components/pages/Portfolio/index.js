@@ -3,7 +3,7 @@ import "./style.css";
 
 function Portfolio() {
   return (
-    <div className="container">
+    <div className="container" id="portBox">
       <div className="row">
         <div className="col-md-8">
           <h1>Portfolio</h1>
@@ -81,13 +81,17 @@ function Portfolio() {
                 </div>
               </div>
             </div>
+            <div class="col-md-4">
+              <p>
+                <br />
+                <br />
+                <br />
+              </p>
+            </div>
+
+
 
           </div>
-
-
-
-        </div>
-        <div class="col-md-4">
 
         </div>
       </div>
