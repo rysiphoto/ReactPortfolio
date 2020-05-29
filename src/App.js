@@ -11,9 +11,9 @@ function App() {
     <Router>
       <div>
         <NavTabs />
-        <Route path="/home" component={Home} />
+        <Route exact path="/home" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
+        <Route exact path="/contact" component={Contact} />
         <Footer />
       </div>
     </Router>
