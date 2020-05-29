@@ -4,7 +4,6 @@ function Footer() {
 
   return (
     <>
-      <BR /><BR /><BR />
       <footer>
         <center> Copyright: Ryan Siverson 2020</center>
       </footer>
