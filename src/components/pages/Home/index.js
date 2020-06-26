@@ -11,7 +11,7 @@ function Home() {
           <img src="assets/Headshot.jpg" id="photo" className="rounded float-left" height="150px" width="150px"
             alt="Ryan Siverson" />
           <p>
-            I am recent graduate of University of Denver's full time Full Stack Web Development boot camp. I am
+            I am a recent graduate of University of Denver's full time Full Stack Web Development boot camp. I am
             always willing and eager to learn new stills and trades to accomplish goals and conquer a problem that
             presents itself.
             While staying home during the COVID-19 pandemic, I have completed an intense 12 week coding boot camp,
