@@ -1,86 +1,98 @@
 import React, { Component } from "react";
+import { Button, FormFeedback, Form, FormGroup, Label, Input } from 'reactstrap';
 import axios from 'axios';
 import "./style.css";
-
 class Contact extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: '',
-      email: '',
-      message: ''
-    }
+  state = {
+    name: '',
+    email: '',
+    subject: '',
+    message: '',
   }
   handleSubmit(e) {
-    e.preventDefault();
-    axios({
-      method: "POST",
-      url: "mailto:rcsskier@mac.com",
-      data: this.state
-    }).then((response) => {
-      if (response.data.status === 'success') {
-        alert("Message Sent.");
-        this.resetForm()
-      } else if (response.data.status === 'fail') {
-        alert("Message failed to send.")
-      }
+    e.preventDefault()
+    const { name, email, subject, message } = this.state
+    let templateParams = {
+      from_name: email,
+      to_name: '<YOUR_EMAIL_ID>',
+      subject: subject,
+      message_html: message,
+    }
+    emailjs.send(
+      'icloud',
+      'template_portfolio',
+      templateParams,
+      'user_XXXXXXXXXXXXXXXXXXXX'
+    )
+    this.resetForm()
+  }
+  resetForm() {
+    this.setState({
+      name: '',
+      email: '',
+      subject: '',
+      message: '',
     })
   }
-
-  resetForm() {
-
-    this.setState({ name: "", email: "", message: "" })
+  handleChange = (param, e) => {
+    this.setState({ [param]: e.target.value })
   }
   render() {
     return (
-      <div>
-
-        <div className="container" id="portBox">
-          <div className="row">
-            <div className="col-md-8">
-              <h2>Contact Me</h2>
-              <ul>
-                <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-                  <div className="form-group">
-                    <label htmlFor="name">Name</label>
-                    <input type="text" className="form-control" />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="exampleInputEmail1">Email address</label>
-                    <input type="email" className="form-control" aria-describedby="emailHelp" />
-                  </div>
-                  <div className="form-group">
-                    <label htmlFor="message">Message</label>
-                    <textarea className="form-control" rows="5"></textarea>
-                  </div>
-                  <button type="submit" className="btn btn-primary">Submit</button>
-                </form>
-                {/* <li><a href="mailto:rcsskier@mac.com?Subject=Hello%20Ryan" target="_top">Email</a></li> */}
-                <p></p>
-                <li><a href="https://www.linkedin.com/in/ryan-siverson-695b5a32/" target="new">LinkedIn</a></li>
-
-              </ul>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div >
-    );
-  }
-
-  onNameChange(event) {
-    this.setState({ name: event.target.value })
-  }
-
-  onEmailChange(event) {
-    this.setState({ email: event.target.value })
-  }
-
-  onMessageChange(event) {
-    this.setState({ message: event.target.value })
+      <>
+        <Layout>
+          <h1 className="p-heading1">Get in Touch</h1>
+          <Form onSubmit={this.handleSubmit.bind(this)}>
+            <FormGroup controlId="formBasicEmail">
+              <Label className="text-muted">Email address</Label>
+              <Input
+                type="email"
+                name="email"
+                value={this.state.email}
+                className="text-primary"
+                onChange={this.handleChange.bind(this, 'email')}
+                placeholder="Enter email"
+              />
+            </FormGroup>
+            <FormGroup controlId="formBasicName">
+              <Label className="text-muted">Name</Label>
+              <Input
+                type="text"
+                name="name"
+                value={this.state.name}
+                className="text-primary"
+                onChange={this.handleChange.bind(this, 'name')}
+                placeholder="Name"
+              />
+            </FormGroup>
+            <FormGroup controlId="formBasicSubject">
+              <Label className="text-muted">Subject</Label>
+              <Input
+                type="text"
+                name="subject"
+                className="text-primary"
+                value={this.state.subject}
+                onChange={this.handleChange.bind(this, 'subject')}
+                placeholder="Subject"
+              />
+            </FormGroup>
+            <FormGroup controlId="formBasicMessage">
+              <Label className="text-muted">Message</Label>
+              <Input
+                type="textarea"
+                name="message"
+                className="text-primary"
+                value={this.state.message}
+                onChange={this.handleChange.bind(this, 'message')}
+              />
+            </FormGroup>
+            <Button variant="primary" type="submit">
+              Submit
+            </Button>
+          </Form>
+        </Layout>
+      </>
+    )
   }
 }
-
 export default Contact;
