@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import "../../../assets/Github.png"
 
 function Portfolio() {
   return (
@@ -74,7 +75,7 @@ function Portfolio() {
             </div>
             <div class="col-md-4">
               <div class="card h-100">
-                <img src="assets/mountains.jpg" id="photo" class="card-img-top" alt="Colorado Mountains" />
+                <img src="../../assets/mountains.jpg" id="photo" class="card-img-top" alt="Colorado Mountains" />
                 <div class="card-body">
                   <h5 class="card-title">Resume</h5>
                   <p><a rel="noopener noreferrer" href="assets/RCS-Resume-2020.pdf" target="_blank">Download PDF</a></p>

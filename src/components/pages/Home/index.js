@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Headshot from "../../../assets/Headshot.jpg";
 
 function Home() {
   return (
@@ -8,7 +9,7 @@ function Home() {
         <div className="col-md-8" id="aboutBox">
           <h1>About Me</h1>
           <hr />
-          <img src="assets/Headshot.jpg" id="photo" className="rounded float-left" height="150px" width="150px"
+          <img src={Headshot} id="photo" className="rounded float-left" height="150px" width="150px"
             alt="Ryan Siverson" />
           <p>
             I am recent graduate of University of Denver's full time Full Stack Web Development boot camp. I am
