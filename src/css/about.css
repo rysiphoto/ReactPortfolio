@@ -1,6 +1,10 @@
 body {
     background-color: lightgrey;
     font-family: 'Dosis', sans-serif;
+    background-image: '../assets/jeepBg.jpg';
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: auto;
 }
 
 .col-md-8 {
@@ -23,7 +27,7 @@ body {
     margin: 0px;
     padding-top:0px;
     padding-bottom: 0px;
-    background-color: crimson;
+    background-color: rgb(61, 61, 61);
     padding: 15px;
 }
 
