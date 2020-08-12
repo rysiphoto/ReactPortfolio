@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/about.css"
+import "../index.css"
 import { Link, useLocation } from "react-router-dom";
 
 function NavTabs() {

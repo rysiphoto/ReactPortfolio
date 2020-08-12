@@ -7,7 +7,7 @@ function Contact() {
 
       <div className="container" id="portBox">
         <div className="row">
-          <div className="col-md-8">
+          <div className="col-md-8" id="portBox">
             <h2>Contact Me</h2>
             <hr />
             <ul>

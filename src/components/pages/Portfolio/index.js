@@ -11,7 +11,7 @@ function Portfolio() {
   return (
     <div className="container" id="portBox">
       <div className="row">
-        <div className="col-md-8">
+        <div className="col-md-8" id="portBox">
           <h1>Portfolio</h1>
           <hr />
 
@@ -102,6 +102,7 @@ function Portfolio() {
         </div>
       </div>
     </div>
+
   );
 }
 

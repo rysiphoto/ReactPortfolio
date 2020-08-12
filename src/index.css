@@ -16,13 +16,15 @@ code {
   margin: 0px;
   padding-top:0px;
   padding-bottom: 0px;
-  background-color: rgb(172, 172, 172);
+  background-color: rgb(61, 61, 61);
   padding: 15px;
   font-size: 20px;
   color: white;
   font-weight: bold;
   border-bottom: 0pt;
-  
+  border-bottom-style: solid;
+  border-bottom-color: crimson;
+  border-bottom-width: 3px
 }
 
 a {

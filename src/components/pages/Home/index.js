@@ -1,10 +1,12 @@
 import React from "react";
 import "./style.css";
 import Headshot from "../../../assets/Headshot.jpg";
+import Background from "../../../assets/bg.jpg";
+
 
 function Home() {
   return (
-    <div className="container">
+    <div className="container" styles={{ backgroundImage: `url(${Background})` }}>
       <div className="row">
         <div className="col-md-8" id="aboutBox">
           <h1>About Me</h1>
@@ -30,7 +32,7 @@ function Home() {
         </div>
 
       </div>
-    </div>
+    </ div>
   );
 }
 

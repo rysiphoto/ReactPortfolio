@@ -1,16 +1,18 @@
 body {
-    background-color: lightgrey;
     font-family: 'Dosis', sans-serif;
-    background-image: '../assets/jeepBg.jpg';
-    background-repeat: no-repeat;
-    background-position: 0%;
-    background-size: auto;
+    /* background-image: url('../assets/bg.jpg');
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center */
 }
 
 .col-md-8 {
     background-color: white;
     padding-left: 20px;
     padding-top: 30px;
+    
 }
 .container {
     
