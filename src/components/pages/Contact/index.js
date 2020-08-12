@@ -9,6 +9,7 @@ function Contact() {
         <div className="row">
           <div className="col-md-8">
             <h2>Contact Me</h2>
+            <hr />
             <ul>
               <li><a href="mailto:rcsskier@mac.com?Subject=Hello%20Ryan" target="_top">Email</a></li>
               <p></p>
