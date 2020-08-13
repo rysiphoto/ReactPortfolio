@@ -4,3 +4,8 @@
   max-height: max-content;
   border-radius: 15px
 }
+.col-md-8 {
+  border-style: solid;
+  border-color: crimson;
+  border-width: 3px
+}

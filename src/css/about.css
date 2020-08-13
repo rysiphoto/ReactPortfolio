@@ -1,36 +1,17 @@
 body {
     font-family: 'Dosis', sans-serif;
-    /* background-image: url('../assets/bg.jpg');
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    background-size: cover;
-    background-position: center */
 }
 
 .col-md-8 {
     background-color: white;
     padding-left: 20px;
-    padding-top: 30px;
+    padding-top: 30px
     
 }
 .container {
-    
     margin-top: 30px;
     margin-left: 30px;
     padding-left: 30px;
-}
-
-.navbar-brand {
-    background-color: crimson;
-    padding: 15px;
-}
-.navbar {
-    margin: 0px;
-    padding-top:0px;
-    padding-bottom: 0px;
-    background-color: rgb(61, 61, 61);
-    padding: 15px;
 }
 
 
@@ -54,6 +35,3 @@ footer {
 a {
     color: blue
   }
-.nav-link {
-    color: white
-}

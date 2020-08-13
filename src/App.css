@@ -6,6 +6,7 @@ body {
   background-image: url('../src/assets/bg.jpg');
   position: flex;
   min-width: 100%;
+  background-attachment: fixed;
   min-height: 100%;
   background-size: fixed;
   background-position: center

@@ -2,7 +2,8 @@
   height: 500px;
   border-radius: 15px;
 }
-
-.container {
-  background-image: "../../../assets/bg.jpg"
+.col-md-8 {
+  border-style: solid;
+  border-color: crimson;
+  border-width: 3px
 }
