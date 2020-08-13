@@ -8,6 +8,7 @@ import Contact from "./components/pages/Contact";
 import './App.css';
 
 function App() {
+
   return (
     <Router>
       <div id="backG">

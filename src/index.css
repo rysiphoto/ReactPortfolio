@@ -13,6 +13,7 @@ code {
 }
 
 .navbar {
+  z-index: 1;
   margin: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -24,7 +25,9 @@ code {
   font-weight: bold;
   border-bottom-style: solid;
   border-bottom-color: crimson;
-  border-bottom-width: 3px
+  border-bottom-width: 3px;
+  position: sticky;
+  top: 0px
 }
 
 .nav-item {
