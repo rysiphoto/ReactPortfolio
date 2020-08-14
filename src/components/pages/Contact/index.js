@@ -8,7 +8,7 @@ function Contact() {
       <div className="container" id="portBox">
         <div className="row">
           <div className="col-md-8" id="portBox">
-            <h2>Contact Me</h2>
+            <h1>Contact Me</h1>
             <hr />
             <ul>
               <li><a href="mailto:rcsskier@mac.com?Subject=Hello%20Ryan" target="_top">Email</a></li>
