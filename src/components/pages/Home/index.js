@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Headshot from "../../../assets/ryanSiverson.jpg";
+import Headshot from "../../../assets/Headshot.jpg";
 import Background from "../../../assets/bg.jpg";
 
 
