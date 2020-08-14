@@ -36,7 +36,7 @@ function Portfolio() {
                   <h5 className="card-title">Boozy Food</h5>
                   <p><a rel="noopener noreferrer" href="https://kimberlitompkins.github.io/project1/" target="_blank">Public
                                         Site</a></p>
-                  <p><a rel="noopener noreferrer" href="https://github.com/KimberliTompkins/project1" target="_blank">GitHub
+                  <p><a rel="noopener noreferrer" href="https://github.com/rysiphoto/Boozy-Food" target="_blank">GitHub
                                         Site</a></p>
                 </div>
               </div>
