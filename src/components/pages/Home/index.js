@@ -28,6 +28,10 @@ function Home() {
               href="/contact">Contact</a> page!
                 </p>
 
+          <h3>Skills:</h3>
+
+          HTML, JavaScript, CSS, React.js, Node.js, GitHub, Express, MySQL, MongoDB, REST, Bootstrap, Mongoose,
+          Passport, jQuery, APIs, AJAX, ES6, Jest, MERN, Sequelize
 
         </div>
 

@@ -6,12 +6,23 @@
 }
 
 .col-md-4 {
-border-radius: 5px
+border-radius: 5px;
 }
 
-.col-md-8 {
+.col-md-10 {
   border-style: solid;
   border-color: crimson;
   border-width: 3px;
-  margin-bottom: 80px
+  margin-bottom: 80px;
+  background-color: white;
+  padding-left: 20px;
+  padding-top: 30px
 }
+
+/* #cardBorder {
+border-style: solid;
+border-color: rgb(61, 61, 61);
+border-width: 2px;
+border-radius: 10px
+
+} */
