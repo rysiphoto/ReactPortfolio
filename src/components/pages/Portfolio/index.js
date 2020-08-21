@@ -16,18 +16,6 @@ function Portfolio() {
 
 
           <div className="row row-cols-1 row-cols-md-2">
-
-            {/* <div className="col mb-4">
-              <div className="card h-100">
-                <img src={GitHub} id="photo" className="card-img-top" alt="GitHub Repository" />
-                <div className="card-body">
-                  <h5 className="card-title">GitHub Repository</h5>
-                  <p><a rel="noopener noreferrer" href="https://github.com/rysiphoto" target="_blank">GitHub Repository</a></p>
-
-                </div>
-              </div>
-            </div> */}
-
             <div className="col mb-4" id="cardBorder">
               <div className="card h-100">
                 <img src={BF_screenshot} id="photo" className="card-img-top" alt="Boozy Food" />
@@ -48,6 +36,60 @@ function Portfolio() {
                   </div>
                   <div class="card-title">
                     <b>Technology used:</b> HTML, JavaScript, CSS, Bulma UI, External APIs, jQuery
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4" id="cardBorder">
+              <div class="card h-100">
+                <img src={ale} id="photo" class="card-img-top" alt="Alewery" />
+                <div class="card-body">
+                  <h6 className="card-title">
+                    <hr />
+                    <b>
+                      Alewery
+                      </b>
+                       - I’m a BREWERY who wants to SECURELY create and log into a web-based resource where I can add and update the selection of beers I’m currently offering to Colorado Front Range taproom customers.
+                       As a BREWERY, I want to be able to add and update the beers I’m serving to the app’s database.
+                       I want to store my address, email, and phone number.
+                        </h6>
+                  <div class="card-title">
+                    <a rel="noopener noreferrer" href="https://mighty-depths-48025.herokuapp.com/" target="_blank">Public
+                                        Site</a>
+                  </div>
+                  <div class="card-title">
+                    <a rel="noopener noreferrer" href="https://github.com/rysiphoto/Alewery" target="_blank">GitHub
+                                        Site</a>
+                  </div>
+                  <div class="card-title">
+                    <b>Technology used:</b> Node.js, Express, Express-Session, Sequelize, JavaScript, HTML, CSS, PUG, MySQL, BCRYPT, BCRYPTJS, Passport, and Route creation
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col mb-4" id="cardBorder">
+              <div class="card h-100">
+                <img src={CheapTravel} id="photo" class="card-img-top" alt="CheapTravel" />
+                <div class="card-body">
+                  <h6 class="card-title">
+                    <b>
+                      Cheap Travel
+                      </b>
+                       - Finding a cheap getaway right now is paramount at a time like this. It's also incredibly helpful to find reviews and tips for vacation destinations, along with finding the best deals! That is why we created this site. A React built site that allows you to log in using Auto0 and leave reviews of inexpensive trips you have taken to inspire others. A travel API has been implemented to search for cheap travel as well.
+                  </h6>
+
+                  <div class="card-title">
+                    <a rel="noopener noreferrer" href="https://desolate-citadel-71436.herokuapp.com/" target="_blank">Public
+                                        Site</a>
+                  </div>
+                  <div class="card-title">
+                    <a rel="noopener noreferrer" href="https://github.com/rysiphoto/Cheap-Travel" target="_blank">GitHub
+                                        Site</a>
+                  </div>
+                  <div class="card-title">
+                    <b>Technology used:</b> JavaScript, MonogoDB, React, Auth0, Express, REST, MERN, Mongoose, Semantic UI, HTML, CSS, API, Route creation
                   </div>
                 </div>
               </div>
@@ -83,69 +125,27 @@ function Portfolio() {
               <div className="card h-100">
                 <img src={eattb} id="photo" class="card-img-top" alt="Eat The Burger Screenshot" />
                 <div class="card-body">
-                  <h5 class="card-title">Eat The Burger</h5>
-                  <p><a rel="noopener noreferrer" href="https://fierce-anchorage-76960.herokuapp.com/" target="_blank">Public
-                                        Site</a></p>
-                  <p><a rel="noopener noreferrer" href="https://github.com/rysiphoto/EatTheBurger" target="_blank">GitHub
-                                        Site</a></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col mb-4" id="cardBorder">
-              <div class="card h-100">
-                <img src={ale} id="photo" class="card-img-top" alt="Alewery" />
-                <div class="card-body">
-                  <h6 className="card-title">
-                    <hr />
-                    <b>
-                      Alewery
-                      </b>
-                       - I’m a BREWERY who wants to SECURELY create and log into a web-based resource where I can add and update the selection of beers I’m currently offering to Colorado Front Range taproom customers.
-                       As a BREWERY, I want to be able to add and update the beers I’m serving to the app’s database.
-                       I want to store my address, email, and phone number.
-                        </h6>
-                  <div class="card-title">
-                    <a rel="noopener noreferrer" href="https://mighty-depths-48025.herokuapp.com/" target="_blank">Public
-                                        Site</a>
-                  </div>
-                  <div class="card-title">
-                    <a rel="noopener noreferrer" href="https://github.com/rysiphoto/Alewery" target="_blank">GitHub
-                                        Site</a>
-                  </div>
-                  <div class="card-title">
-                    <b>Technology used:</b> Node.js, Express, Express-Session, Sequelize, JavaScript, HTML, CSS, PUG, MySQL, BCRYPT, BCRYPTJS, Passport, and Route creation
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="col mb-4" id="cardBorder">
-              <div class="card h-100">
-                <img src={CheapTravel} id="photo" class="card-img-top" alt="CheapTravel" />
-                <div class="card-body">
                   <h6 class="card-title">
                     <b>
-                      Cheap Travel
+                      Eat The Burger
                       </b>
-                       - Finding a cheap getaway right now is paramount at a time like this. It's also incredibly helpful to find reviews and tips for vacation destinations, along with finding the best deals! That is why we created this site. A React built site that allows you to log in using Auto0 and leave reviews of inexpensive trips you have taken to inspire others. A travel API has been implemented to search for cheap travel as well.
-                  </h6>
 
+                   - This website takes burger names entered by the user, stores the names in an SQL database and puts them in one of two categories. You can then move them from one category to the other by clicking on their button, or delete them from the SQL database all together.
+                   </h6>
                   <div class="card-title">
-                    <a rel="noopener noreferrer" href="https://desolate-citadel-71436.herokuapp.com/" target="_blank">Public
+                    <a rel="noopener noreferrer" href="https://fierce-anchorage-76960.herokuapp.com/" target="_blank">Public
+                                        Site</a>
+                  </div>
+                  <div class="card-title"><a rel="noopener noreferrer" href="https://github.com/rysiphoto/EatTheBurger" target="_blank">GitHub
                                         Site</a>
                   </div>
                   <div class="card-title">
-                    <a rel="noopener noreferrer" href="https://github.com/rysiphoto/Cheap-Travel" target="_blank">GitHub
-                                        Site</a>
-                  </div>
-                  <div class="card-title">
-                    <b>Technology used:</b> JavaScript, MonogoDB, React, Auth0, Express, REST, MERN, Mongoose, Semantic UI, HTML, CSS, API, Route creation
+                    <b>Technology used:</b> Node.js, JavaScript, HTML, CSS, ORM, MySQL, MERN, Ajax, JSON, Handlebars
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="col-md-4">
               <p>
                 <br />
