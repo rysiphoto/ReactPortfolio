@@ -32,7 +32,7 @@ function Home() {
 
           HTML, JavaScript, CSS, React.js, Node.js, GitHub, Express, MySQL, MongoDB, REST, Bootstrap, Mongoose,
           Passport, jQuery, APIs, AJAX, ES6, Jest, MERN, Sequelize
-
+          <p></p>
         </div>
 
       </div>
