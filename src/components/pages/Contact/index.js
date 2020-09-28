@@ -23,7 +23,7 @@ function Contact() {
               <p></p>
               <li>
 
-                <a rel="noopener noreferrer" href="https://www.dropbox.com/s/7ir4vrzibese7lk/RCS-Resume-2020.pdf?dl=0" target="_blank">Download Resume PDF</a>
+                <a rel="noopener noreferrer" href="https://www.dropbox.com/s/v7w6znpuz794uyp/rcs-resume-2020.pdf?dl=0" target="_blank">Download Resume PDF</a>
               </li>
 
             </ul>
